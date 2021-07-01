@@ -1,0 +1,42 @@
+#up_menu {
+	border: 2px solid;
+	width: 200px;
+}
+
+#center_down {
+	text-align: center;
+}
+
+#down_menu {
+	border: 1px solid;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left_menu {
+	border: 3px solid;
+	height: 400px;
+	width: 80px;
+}
+#gameboad {
+	border: 5px solid;
+	width: 200px;
+	height: 400px;
+}
+#right_menu {
+	border: 3px solid;
+	height: 400px;
+	width: 80px;
+}
+
+#test0 {
+	width: 20px;
+	height: 20px;
+}
+
+#id {
+	border: 1px solid;
+}

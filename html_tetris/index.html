@@ -1,0 +1,55 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src = "tetris.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id = "up_menu"><p id = "text"></p></div>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <td><div id = "left_menu"></div></td>
+                <td><div id = "gameboad"></div></td>
+                <td><div id = "right_menu"></div></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div id = "down_menu">
+                    <table class = "center">
+                        <tr>
+                            <td><input type="button" value="hold" id="hold"></td>
+                            <td></td>
+                            <td><input type="button" value="↑" id="change"></td>
+                            <td></td>
+                            <td><input type="button" value="fall" id="down"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="button" value="←" id="left"></td>
+                            <td></td>
+                            <td><input type="button" value="→" id="right"></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    </div>
+                </td>
+                <td><input type="button" value="stop" id="stop"></td>
+            </tr>
+        </table>
+    </div>
+
+    
+    
+    <script> 
+        var game = new tetris();
+        game.gamestart();
+    </script>
+
+</body>
+</html>
